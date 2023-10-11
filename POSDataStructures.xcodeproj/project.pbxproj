@@ -7,41 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21700CF417B2389400B22CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21700CF317B2389400B22CD6 /* Foundation.framework */; };
 		21700D0317B2389400B22CD6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21700D0217B2389400B22CD6 /* SenTestingKit.framework */; };
 		21700D0517B2389400B22CD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21700D0417B2389400B22CD6 /* UIKit.framework */; };
 		21700D0617B2389400B22CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21700CF317B2389400B22CD6 /* Foundation.framework */; };
-		21700D0917B2389400B22CD6 /* libPOSDataStructures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21700CF017B2389400B22CD6 /* libPOSDataStructures.a */; };
 		21700D0F17B2389400B22CD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21700D0D17B2389400B22CD6 /* InfoPlist.strings */; };
-		21700D1D17B23CEC00B22CD6 /* POSBinaryHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 21700D1C17B23CEC00B22CD6 /* POSBinaryHeap.m */; };
 		21700D1E17B23CEC00B22CD6 /* POSBinaryHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 21700D1C17B23CEC00B22CD6 /* POSBinaryHeap.m */; };
 		21700D2117B2422400B22CD6 /* POSBinaryHeapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21700D2017B2422400B22CD6 /* POSBinaryHeapTests.m */; };
+		2878A3ED2AD6F69C00F4D49F /* POSDataStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = 2878A3EC2AD6F69C00F4D49F /* POSDataStructures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2878A3F12AD6F6D100F4D49F /* POSBinaryHeap.h in Headers */ = {isa = PBXBuildFile; fileRef = 21700D1B17B23CEC00B22CD6 /* POSBinaryHeap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2878A3F22AD6F6DE00F4D49F /* POSBinaryHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 21700D1C17B23CEC00B22CD6 /* POSBinaryHeap.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		21700D0717B2389400B22CD6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 21700CE817B2389400B22CD6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 21700CEF17B2389400B22CD6;
-			remoteInfo = POSDataStructures;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		21700CEE17B2389400B22CD6 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		21700CF017B2389400B22CD6 /* libPOSDataStructures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPOSDataStructures.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		21700CF317B2389400B22CD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		21700CF717B2389400B22CD6 /* POSDataStructures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POSDataStructures-Prefix.pch"; sourceTree = "<group>"; };
 		21700D0117B2389400B22CD6 /* POSDataStructuresTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POSDataStructuresTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,18 +30,11 @@
 		21700D1C17B23CEC00B22CD6 /* POSBinaryHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSBinaryHeap.m; sourceTree = "<group>"; };
 		21700D1F17B2422400B22CD6 /* POSBinaryHeapTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSBinaryHeapTests.h; sourceTree = "<group>"; };
 		21700D2017B2422400B22CD6 /* POSBinaryHeapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSBinaryHeapTests.m; sourceTree = "<group>"; };
-		219AA11F18D056D6000B68AB /* POSDataStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POSDataStructures.h; sourceTree = "<group>"; };
+		2878A3EA2AD6F69C00F4D49F /* POSDataStructures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POSDataStructures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2878A3EC2AD6F69C00F4D49F /* POSDataStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POSDataStructures.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21700CED17B2389400B22CD6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21700CF417B2389400B22CD6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		21700CFD17B2389400B22CD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,7 +42,13 @@
 				21700D0317B2389400B22CD6 /* SenTestingKit.framework in Frameworks */,
 				21700D0517B2389400B22CD6 /* UIKit.framework in Frameworks */,
 				21700D0617B2389400B22CD6 /* Foundation.framework in Frameworks */,
-				21700D0917B2389400B22CD6 /* libPOSDataStructures.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2878A3E72AD6F69C00F4D49F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +60,7 @@
 			children = (
 				21700CF517B2389400B22CD6 /* POSDataStructures */,
 				21700D0A17B2389400B22CD6 /* POSDataStructuresTests */,
+				2878A3EB2AD6F69C00F4D49F /* POSDataStructures */,
 				21700CF217B2389400B22CD6 /* Frameworks */,
 				21700CF117B2389400B22CD6 /* Products */,
 			);
@@ -92,8 +69,8 @@
 		21700CF117B2389400B22CD6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21700CF017B2389400B22CD6 /* libPOSDataStructures.a */,
 				21700D0117B2389400B22CD6 /* POSDataStructuresTests.octest */,
+				2878A3EA2AD6F69C00F4D49F /* POSDataStructures.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,7 +88,6 @@
 		21700CF517B2389400B22CD6 /* POSDataStructures */ = {
 			isa = PBXGroup;
 			children = (
-				219AA11F18D056D6000B68AB /* POSDataStructures.h */,
 				21700D1B17B23CEC00B22CD6 /* POSBinaryHeap.h */,
 				21700D1C17B23CEC00B22CD6 /* POSBinaryHeap.m */,
 				21700CF617B2389400B22CD6 /* Supporting Files */,
@@ -146,26 +122,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2878A3EB2AD6F69C00F4D49F /* POSDataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				2878A3EC2AD6F69C00F4D49F /* POSDataStructures.h */,
+			);
+			path = POSDataStructures;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		21700CEF17B2389400B22CD6 /* POSDataStructures */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 21700D1517B2389400B22CD6 /* Build configuration list for PBXNativeTarget "POSDataStructures" */;
-			buildPhases = (
-				21700CEC17B2389400B22CD6 /* Sources */,
-				21700CED17B2389400B22CD6 /* Frameworks */,
-				21700CEE17B2389400B22CD6 /* CopyFiles */,
+/* Begin PBXHeadersBuildPhase section */
+		2878A3E52AD6F69C00F4D49F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2878A3ED2AD6F69C00F4D49F /* POSDataStructures.h in Headers */,
+				2878A3F12AD6F6D100F4D49F /* POSBinaryHeap.h in Headers */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = POSDataStructures;
-			productName = POSDataStructures;
-			productReference = 21700CF017B2389400B22CD6 /* libPOSDataStructures.a */;
-			productType = "com.apple.product-type.library.static";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
 		21700D0017B2389400B22CD6 /* POSDataStructuresTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21700D1817B2389400B22CD6 /* Build configuration list for PBXNativeTarget "POSDataStructuresTests" */;
@@ -178,12 +157,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				21700D0817B2389400B22CD6 /* PBXTargetDependency */,
 			);
 			name = POSDataStructuresTests;
 			productName = POSDataStructuresTests;
 			productReference = 21700D0117B2389400B22CD6 /* POSDataStructuresTests.octest */;
 			productType = "com.apple.product-type.bundle";
+		};
+		2878A3E92AD6F69C00F4D49F /* POSDataStructures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2878A3EE2AD6F69D00F4D49F /* Build configuration list for PBXNativeTarget "POSDataStructures" */;
+			buildPhases = (
+				2878A3E52AD6F69C00F4D49F /* Headers */,
+				2878A3E62AD6F69C00F4D49F /* Sources */,
+				2878A3E72AD6F69C00F4D49F /* Frameworks */,
+				2878A3E82AD6F69C00F4D49F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POSDataStructures;
+			productName = POSDataStructures;
+			productReference = 2878A3EA2AD6F69C00F4D49F /* POSDataStructures.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,12 +189,19 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Pavel Osipov";
+				TargetAttributes = {
+					2878A3E92AD6F69C00F4D49F = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 21700CEB17B2389400B22CD6 /* Build configuration list for PBXProject "POSDataStructures" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 21700CE717B2389400B22CD6;
@@ -206,8 +209,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21700CEF17B2389400B22CD6 /* POSDataStructures */,
 				21700D0017B2389400B22CD6 /* POSDataStructuresTests */,
+				2878A3E92AD6F69C00F4D49F /* POSDataStructures */,
 			);
 		};
 /* End PBXProject section */
@@ -218,6 +221,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				21700D0F17B2389400B22CD6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2878A3E82AD6F69C00F4D49F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,14 +250,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21700CEC17B2389400B22CD6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21700D1D17B23CEC00B22CD6 /* POSBinaryHeap.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		21700CFC17B2389400B22CD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,15 +259,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		21700D0817B2389400B22CD6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 21700CEF17B2389400B22CD6 /* POSDataStructures */;
-			targetProxy = 21700D0717B2389400B22CD6 /* PBXContainerItemProxy */;
+		2878A3E62AD6F69C00F4D49F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2878A3F22AD6F6DE00F4D49F /* POSBinaryHeap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXTargetDependency section */
+/* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
 		21700D0D17B2389400B22CD6 /* InfoPlist.strings */ = {
@@ -332,30 +334,6 @@
 			};
 			name = Release;
 		};
-		21700D1617B2389400B22CD6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/POSDataStructures.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "POSDataStructures/POSDataStructures-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		21700D1717B2389400B22CD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/POSDataStructures.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "POSDataStructures/POSDataStructures-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		21700D1917B2389400B22CD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -386,6 +364,125 @@
 			};
 			name = Release;
 		};
+		2878A3EF2AD6F69D00F4D49F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Pavel Osipov. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.golubev.POSDataStructures;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2878A3F02AD6F69D00F4D49F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Pavel Osipov. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.golubev.POSDataStructures;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -398,20 +495,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21700D1517B2389400B22CD6 /* Build configuration list for PBXNativeTarget "POSDataStructures" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				21700D1617B2389400B22CD6 /* Debug */,
-				21700D1717B2389400B22CD6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		21700D1817B2389400B22CD6 /* Build configuration list for PBXNativeTarget "POSDataStructuresTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21700D1917B2389400B22CD6 /* Debug */,
 				21700D1A17B2389400B22CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2878A3EE2AD6F69D00F4D49F /* Build configuration list for PBXNativeTarget "POSDataStructures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2878A3EF2AD6F69D00F4D49F /* Debug */,
+				2878A3F02AD6F69D00F4D49F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
