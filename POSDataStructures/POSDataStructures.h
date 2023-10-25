@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <POSDataStructures/POSBinaryHeap.h>
-#import <POSDataStructures/POSDataStructures-Prefix.h>
 
 //! Project version number for POSDataStructures.
 FOUNDATION_EXPORT double POSDataStructuresVersionNumber;
